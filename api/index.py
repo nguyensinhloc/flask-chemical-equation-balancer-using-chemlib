@@ -9,6 +9,53 @@ HTML_TEMPLATE = """
 <head>
     <meta charset="UTF-8">
     <title>Chemical Reaction Balancer</title>
+    <style>
+        body {
+            background-image: url("../static/retro-science-background/background.jpg");
+            background-size: cover;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 100px;
+            font-family: 'Arial Narrow', sans-serif;
+        }
+
+        form label, input {
+            font-size: 50px;
+            font-family: "Arial Narrow", Helvetica, Arial, sans-serif;
+            border-radius: 50px;
+        }
+
+        form input[type=submit] {
+            background: linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+            color: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin: 32px;
+            border: none;
+            letter-spacing: 1.5px;
+            box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+            padding: 17px 40px;
+            text-transform: uppercase;
+        }
+
+        form input[type=submit]:hover {
+            background: hsl(261deg, 80%, 48%);
+            color: hsl(0, 0%, 100%);
+            box-shadow: rgb(93, 24, 220) 0px 7px 29px 0px;
+            letter-spacing: 3px;
+        }
+
+        form input[type=submit]:active {
+            letter-spacing: 3px;
+            background-color: hsl(261deg, 80%, 48%);
+            color: hsl(0, 0%, 100%);
+            box-shadow: rgb(93, 24, 220) 0px 0px 0px 0px;
+            transform: translateY(10px);
+            transition: 100ms;
+        }
+    </style>
 </head>
 <body>
     <h1>Chemical Reaction Balancer</h1>
