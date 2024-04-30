@@ -1,8 +1,20 @@
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fexamples%2Ftree%2Fmain%2Fpython%2Fflask3&demo-title=Flask%203%20%2B%20Vercel&demo-description=Use%20Flask%203%20on%20Vercel%20with%20Serverless%20Functions%20using%20the%20Python%20Runtime.&demo-url=https%3A%2F%2Fflask3-python-template.vercel.app%2F&demo-image=https://assets.vercel.com/image/upload/v1669994156/random/flask.png)
 
-# Flask + Vercel
+# Flask Chemical Equation Balancer
 
-This example shows how to use Flask 3 on Vercel with Serverless Functions using the [Python Runtime](https://vercel.com/docs/concepts/functions/serverless-functions/runtimes/python).
+This Flask application provides an interface for balancing chemical equations.
+
+## Features
+
+- **User-Friendly Interface**: Easy input method for entering chemical equations.
+- **Real-Time Balancing**: Instantly balances equations as they are entered.
+- **Educational Tool**: Helps students understand the balancing process.
+
+## How to Use
+
+1. Enter the unbalanced chemical equation in the provided field.
+2. Click the 'Balance' button to see the balanced equation.
+3. The balanced equation will be displayed along with the stoichiometric coefficients.
 
 ## Demo
 
