@@ -11,7 +11,7 @@ HTML_TEMPLATE = """
     <title>Chemical Reaction Balancer</title>
     <style>
         body {
-            background-image: url("../static/retro-science-background/background.jpg");
+            background-image: url("./background.jpg");
             background-size: cover;
             text-align: center;
         }
