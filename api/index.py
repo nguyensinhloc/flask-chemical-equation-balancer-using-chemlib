@@ -55,6 +55,18 @@ HTML_TEMPLATE = """
             transform: translateY(10px);
             transition: 100ms;
         }
+        .result-display {
+            font-size: 50px;
+            color: black;
+            background-color: white;
+            padding: 10px;
+            margin-top: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            display: inline-block;
+        }
+
     </style>
 </head>
 <body>
@@ -66,7 +78,9 @@ HTML_TEMPLATE = """
         <input type="text" id="products" name="products"><br>
         <input type="submit" value="Balance">
     </form>
-    {{result}}
+    <div class="result-display">
+        {{result}}
+    </div>
 </body>
 </html>
 """
