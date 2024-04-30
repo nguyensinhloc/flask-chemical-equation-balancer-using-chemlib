@@ -18,7 +18,7 @@ This Flask application provides an interface for balancing chemical equations.
 
 ## Demo
 
-[https://flask-python-template.vercel.app/](https://flask-chemical-equation-balancer-using-chemlib.vercel.app/)
+[https://flask-chemical-equation-balancer-using-chemlib.vercel.app/]
 
 ## How it Works
 
